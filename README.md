@@ -638,12 +638,10 @@ There are different layers of authorization and authentication configured on the
 
 **Pre-requisite**
 
-Enable CLI for your system by following the steps outlined in the below documentation - 
+Install Openshift CLI client for your system by following the steps outlined in the below documentation
 
----
-https://cloud.ibm.com/docs/openshift?topic=openshift-openshift-cli#cli_oc 
+https://docs.openshift.com/container-platform/4.10/cli_reference/openshift_cli/getting-started-cli.html
  
----
 
 1. Login to Openshift CLuster Environment. Click on the top right corner --> You Login ID will appear here --> Click copy login command
 
