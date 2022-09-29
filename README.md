@@ -443,39 +443,8 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateAppChnl.png?raw=true)
  
- 
-9. Click "Next" on the following page 
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/AppChnlStep2.png?raw=true)
- 
-10. Select "Quick Create" and provide a Channel Name, Channel Type and Description. Once complete, click "Create"
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChnnelStep3.png?raw=true)
- 
- 
-11. On successful creation, channel will appear under "App Channels"
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChannelCreated.png?raw=true)
- 
-
-12. To edit the configuration of the Channel click "Configuration" as highlighted below - 
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/EditConfigChnl.png?raw=true)
- 
- 
-13. It will redirect to open the configurations section of the Channel. Under "Properties" select "SSL"
-
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/EditSSLChnl.png?raw=true)
- 
- 
-14. Select "SSL Authentication" to "Optional" and hit "Save"
-
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/SSLEditCntd.png?raw=true)
- 
- 
- Your environment is **ready!!!**
+  
+ Your MQ environment is **ready!!!**
  
  [Back to Top](#topic-1-introduction-and-scenario-details)
  
@@ -509,15 +478,6 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP5.png?raw=true)
 
 
-5. Proceed further by creating a Local Integration Server in ACE. You may do so by using the navigation - 
-   Right click on the Integration Servers --> Select **Create a local Integration Server**
-   
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP6.png?raw=true)
-
-   Click Finish.
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP7.png?raw=true)
-
-   This completes the creation of local integration server.
 
 [Back to Top](#topic-1-introduction-and-scenario-details)   
 
