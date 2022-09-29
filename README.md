@@ -643,6 +643,8 @@ Install Openshift CLI client for your system by following the steps outlined in 
 https://docs.openshift.com/container-platform/4.10/cli_reference/openshift_cli/getting-started-cli.html
  
 
+
+
 1. Login to Openshift CLuster Environment. Click on the top right corner --> You Login ID will appear here --> Click copy login command
 
 
@@ -663,28 +665,28 @@ https://docs.openshift.com/container-platform/4.10/cli_reference/openshift_cli/g
 
 4. Navigate to your working project example - cp4i in this example
 
----
-oc project cp4i(your project name)
 
----
+```
+oc project cp4i(your project name)
+```
+
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQAC7.png?raw=true)
 
 5. Run command as below to get the pod name of pod running MQ. Copy the pod name to be used later.
 
----
+```
 oc get pods|grep mq 
 
----
+```
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQAC8.png?raw=true)
 
 6. Change Directory to the location of your mqsc file. Use the following command to upload mqsc file to the MQ pod
 
----
+```
 oc exec -it quickstart-cp4i-queue-ibm-mq-0(this is your pod’s name) runmqsc QUICKSTART < mq_ace_lab.mqsc
-
----
+```
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQAC9.png?raw=true)
 
