@@ -429,7 +429,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
  ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/QMngrReady.png?raw=true)
  
 
-6. Click on queue name --> It should open up MQ Console
+6. Click on queue manager name --> It will open up MQ Console
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQConsole.png?raw=true)
  
