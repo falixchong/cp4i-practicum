@@ -508,12 +508,10 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
    
    Default WebService URL : http://localhost:7800/responseService
 
-   Changed URL : http://**is-01-toolkit-request-app-3-http-cp4i.cp4intpg-wdc04-ttwakv-8946bbc006b7c6eb0829d088919818bb-0000.us-east.containers.appdomain.cloud**/responseService
+   Changed URL : **[URL Obtain from below Route]**
+     
+   **OCP Console** --> **Administrator View** --> **Networking** --> Select Routes --> Search for the Response Integration server created. 
 
-   
-   Before proceeding with the above change, keep the URL handy **(highlighted in bold)** by copying it from - 
-   
-   OCP Console --> Administrator View --> Networking --> Select Routes --> Search for the Response Integration server created. 
    Take a note of the URL in the “Location” column.
    
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-2.png?raw=true)
