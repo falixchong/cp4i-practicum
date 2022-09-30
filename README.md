@@ -11,7 +11,7 @@ Table of contents
    * [Topic 3: Solution Architecture](#topic-2-solution-architecture)
    * [Topic 4: Running Transformation Advisor](#topic-4-running-transformation-advisor)
       * [Installing IBM App Connect Enterprise (ACE) & Running Transformation Advisor (TADataCollector)](#installing-ibm-app-connect-enterprise-ace--running-transformation-advisor-tadatacollector)
-   * [Topic 5: Environment Setup and Configuration](#topic-4-environment-setup-and-configuration)
+   * [Topic 5: Environment Setup and Configuration](#topic-5-environment-setup-and-configuration)
       * [Provisioning Cluster](#provisioning-cluster)
       * [Creating Projects](#creating-projects)
       * [Installing Cloud Pak for Integration on Openshift](#installing-cloud-pak-for-integration-on-openshift)
@@ -139,7 +139,7 @@ The version used in this practicum is `12.0.3`
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/AppConnect5.png?raw=true)
 
-5. Run the Transformation Advisor by running `TADataCollector` on this console and passing Scenario3 Assets-IIB IIBV10_Broker_backup.zip file through command line, as shown below: 
+5. Run the Transformation Advisor by running `TADataCollector` on this console and passing Scenario Assets-IIB ```IIBV10_Broker_backup.zip``` file through command line, as shown below: 
 
 ```
 TADataCollector ace run /<path_to_assets_on_local_machine>/IIBV10_Broker_backup.zip
