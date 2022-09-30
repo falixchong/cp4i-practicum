@@ -65,7 +65,7 @@ Day 5: Demonstrate your practical solution to whole class.
 
 ### Introduction to Cluster
 
-If you're completely new to the concept of clusters, do follow the quick and easy tutorial [here](https://cloud.ibm.com/docs/openshift?topic=openshift-openshift_tutorial) to learn more
+If you're completely new to the concept of clusters, do follow the quick and easy tutorial [here](https://www.redhat.com/en/technologies/cloud-computing/openshift) to learn more
 > With Red Hat® OpenShift® on IBM Cloud®, you can create highly available clusters with virtual or bare metal worker nodes that come installed with the Red Hat OpenShift on IBM Cloud Container Platform orchestration software. You get all the advantages of a managed offering for your cluster infrastructure environment, while using the Red Hat OpenShift tooling and catalog that runs on Red Hat Enterprise Linux for your app deployments.
 
 
@@ -92,7 +92,7 @@ For developers, OpenShift has two different ways of enabling them to work with t
 
 
 # Topic 2: Solution Architecture
-Below describe the high-level solution architecture for a simple scenario 3 solution.
+Below describe the high-level solution architecture for a simple scenario's solution.
 By using IBM IIB/ACE transformation advisor's TADataCollector, we can analyse the current monolith IIB/ACE application. A report will be generated to recommend what are needed to refactor, in order to achieve a microservice architecture build.
 
 The refactor code can later be deployed in a microservices architecture on Redhat Openshift with CP4I (ACE + MQ) environment 
@@ -437,11 +437,6 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChannlQuickStrt.png?raw=true)
  
 
-8. Navigate to Communication --> App Channel --> Click Create 
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateAppChnl.png?raw=true)
- 
-  
  Your MQ environment is **ready!!!**
  
  [Back to Top](#topic-1-introduction-and-scenario-details)
