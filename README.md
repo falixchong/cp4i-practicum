@@ -165,7 +165,7 @@ TADataCollector ace run /<path_to_assets_on_local_machine>/IIBV10_Broker_backup.
 &nbsp;
 &nbsp;
 &nbsp;
-# Topic 4: Environment Setup and Configuration
+# Topic 5: Environment Setup and Configuration
 
 ## Provisioning Cluster
 
