@@ -551,8 +551,7 @@ To generate BAR file for the assets. Select BAR --> New --> BAR File
 
 4. Select resources to include in the BAR file (**HttpRequestApp**), then click on “Build and Save” to generate BAR file. 
 
-[Pending Update of IMAGE (Change to BAR File app HTTPRequestApp)]    
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP9.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP11.jpg?raw=true)
 
 
 5. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
@@ -570,7 +569,7 @@ To generate BAR file for the assets. Select BAR --> New --> BAR File
  
  **Bar file can be directly dragged and dropped onto CP4I browser console**
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer6.jpg?raw=true)
  
  9. Skip **Configuration** screen by clicking "Next" proceeding to **Sever** setting. Input the settings as shown in the screenshot below.
 
