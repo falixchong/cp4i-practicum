@@ -455,11 +455,11 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP1.png?raw=true)
 
-2. Browse on your local machine to add the MessageFlow_PI.zip file from the Scenario 3 assets as shown below
+2. Browse on your local machine to add the **MessageFlow_PI.zip** file from the Scenario 3 assets as shown below
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP2.png?raw=true)
 
-3. Open the assets into ACE as shown in screenshot below - 
+3. Import the artifact into ACE as shown in screenshot below - 
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP3.png?raw=true)
 
@@ -479,8 +479,9 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/scenario3-application-architecture-ace-rest-rest.png?raw=true)
 
+## HTTPResponseApp
 
-1. To generate BAR file for the assets. Select BAR --> New --> BAR File 
+1. Generate BAR file for the assets. Select BAR --> New --> BAR File 
    Add a name (**HttpResponseApp**) for the BAR file and click    Finish.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP8.png?raw=true)
@@ -505,13 +506,11 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
  
    **Bar file can be directly dragged and dropped onto CP4I browser console**
 
-[Pending Update of IMAGE (bar file value)]
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer3.jpg?raw=true)
  
  7. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the screenshot below.
 
-[Pending Update of IMAGE (Name change to is-01-toolkit-response-app-1)]
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer2.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer3.jpg?raw=true)
  
  8. Hit "Create" and wait until the status of the server has changed to "Ready"
 
