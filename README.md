@@ -22,8 +22,6 @@ Table of contents
       * [Importing Asset into IBM ACE Toolkit and creating local integration server](#importing-asset-into-ibm-ace-toolkit-and-creating-local-integration-server)
       * [Refactor ACE REST to REST Message flow](#refactor-ace-rest-to-rest-message-flow)
       * [Refactor ACE MQ Message flow using MQ Client Connection. Introduce new RestToMQApp message flow to expose putting MQ messages](#refactor-ace-mq-message-flow-using-mq-client-connection-introduce-new-resttomqapp-message-flow-to-expose-putting-mq-messages)
-      * [Build ACE message flow into BAR file](#build-ace-message-flow-into-bar-file)
-      * [Deploy BAR file to CP4I Integration Servers](#deploy-bar-file-to-cp4i-integration-servers)
    * [Topic 7: Conclusion](#conclusion)
 <!--te-->
 
@@ -500,7 +498,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 3. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
 
 
- 4. Navigate to IBM Cloud Pak for Integrations home page. Select Run --> Integrations --> It will redirect you to IBM APP Connect
+ 4. Navigate to IBM Cloud Pak for Integrations integration dashboard you create earlier
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IBMAppConnect.png?raw=true)
  
@@ -510,32 +508,30 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
  
  6. Provide the BAR file to be deployed to the server and hit next.
  
- **Bar file can be directly dragged and dropped onto CP4I browser console**
+   **Bar file can be directly dragged and dropped onto CP4I browser console**
 
+[Pending Update of IMAGE (bar file value)]
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
  
- 7. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the snapshot below.
+ 7. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the screenshot below.
 
+[Pending Update of IMAGE (Name change to is-01-toolkit-response-app-1)]
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer2.png?raw=true)
  
  8. Hit "Create" and wait until the status of the server has changed to "Ready"
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerStatus.png?raw=true)
  
- 9. The status changes to "Ready"
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerReadyStatus.png?raw=true)
-
-
-10. Open ACE and navigate to **HttpRequestApp** —> Expand to open folder Flows —> double-click RequestService.msgflow
+9. Open ACE Toolkit and navigate to **HttpRequestApp** —> Expand to open folder Flows —> double-click RequestService.msgflow
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-1.png?raw=true)
 
-11. Proceed to make the following changes to each component as below:
+10. Proceed to make the following changes to each component as below:
 
    a. Select **HTTP Request** on the messageflow. Properties associated with it will show up at the bottom. 
-	    Change the path **web service url**  to URL obtain below
-      
+	    Change the path **web service url**  to URL obtain in following steps
+
+[Pending Update of IMAGE (HTTP request URL)]    
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChangeProperties1.png?raw=true)
   
   
@@ -551,49 +547,47 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
   
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-3.png?raw=true)
   
-12. Create a BAR file for this flow and deploy it to a new Integration Server in OCP.
+11. Create a BAR file for this flow and deploy it to a new Integration Server in OCP.
 
 To generate BAR file for the assets. Select BAR --> New --> BAR File 
    Add a name (**HttpRequestApp**) for the BAR file and click    Finish.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP8.png?raw=true)
 
-13. Select resources to include in the BAR file (**HttpRequestApp**), then click on “Build and Save” to generate BAR file. 
+12. Select resources to include in the BAR file (**HttpRequestApp**), then click on “Build and Save” to generate BAR file. 
 
+[Pending Update of IMAGE (Change to BAR File app HTTPRequestApp)]    
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP9.png?raw=true)
 
 
-14. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
+13. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
 
 
- 15. Navigate to IBM Cloud Pak for Integrations home page. Select Run --> Integrations --> It will redirect you to IBM APP Connect
+ 14. Navigate to IBM Cloud Pak for Integrations home page. Select Run --> Integrations --> It will redirect you to IBM APP Connect
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IBMAppConnect.png?raw=true)
  
- 16. Create new Integration Server to deploy BAR file for MQ --> Select QuickStart tool kit integration --> Hit Next
+ 15. Create new Integration Server to deploy BAR file for MQ --> Select QuickStart tool kit integration --> Hit Next
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/DeployBAR.png?raw=true)
  
- 17. Provide the BAR file to be deployed to the server and hit next.
+ 16. Provide the BAR file to be deployed to the server and hit next.
  
  **Bar file can be directly dragged and dropped onto CP4I browser console**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
  
- 18. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the snapshot below.
+ 17. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the snapshot below.
 
+[Pending Update of IMAGE (Change to is-01-toolkit-request-app1)]  
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer2.png?raw=true)
  
- 19. Hit "Create" and wait until the status of the server has changed to "Ready"
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerStatus.png?raw=true)
- 
- 20. The status changes to "Ready"
+ 18. Hit "Create" and wait until the status of the server has changed to "Ready"
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerReadyStatus.png?raw=true)
 
 
-21. Test the deployed BARs
+19. Test the deployed BARs
 
    a. Open Terminal on your local machine
 
@@ -611,7 +605,7 @@ Please replace
 **http://is-01-toolkit-request-app-3-http-cp4i.cp4intpg-wdc04-ttwakv-8946bbc006b7c6eb0829d088919818bb-0000.us-east.containers.appdomain.cloud** part with the URL of your environment
 
 
-22. Receiving 200 OK on the terminal validates successful deployment
+20. Receiving 200 OK on the terminal validates successful deployment
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-5.png?raw=true)
 
@@ -627,14 +621,12 @@ Please replace
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HostName.png?raw=true)
  
  
-2. Navigate to ACE and open MQ Flow
+2. Navigate to ACE Toolkit and open RemoteMQInOut.msgflow flow as like below
  
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ACE-MQFlow.png?raw=true)
  
 
-3. On diagram at the right --> Select MQInput --> It will display properties section below.
-    Navigate to MQ Connection --> It should display the properties of MQ Connection
-    
+3. Select MQInput
     
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ACEMQ2.png?raw=true)
  
@@ -653,6 +645,48 @@ Please replace
 
 
 [Back to Top](#topic-1-introduction-and-scenario-details)
+
+
+6. To generate BAR file for the assets. Select BAR --> New --> BAR File 
+   Add a name (**MQ_CLIENT_APP**) for the BAR file and click    Finish.
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP8.png?raw=true)
+
+7. Select resources to include in the BAR file (**MQ_CLIENT_APP**), then click on “Build and Save” to generate BAR file. 
+
+[Pending Update of Image(chanage to MQ_CLIENT_APP)]
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP9.png?raw=true)
+
+
+8. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
+
+
+
+9. Navigate to IBM Cloud Pak for Integrations integration dashboard
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IBMAppConnect.png?raw=true)
+ 
+ 10. Create new Integration Server to deploy BAR file for MQ --> Select QuickStart tool kit integration --> Hit Next
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/DeployBAR.png?raw=true)
+ 
+ 11. Provide the BAR file to be deployed to the server and hit next.
+ 
+ **Bar file can be directly dragged and dropped onto CP4I browser console**
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
+ 
+ 12. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the snapshot below.
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer2.png?raw=true)
+ 
+ 13. Hit "Create" and wait until the status of the server has changed to "Ready"
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerStatus.png?raw=true)
+ 
+ 14. The status changes to "Ready"
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerReadyStatus.png?raw=true)
 
 
 ## Running mq_ace_lab.mqsc
@@ -716,45 +750,7 @@ oc exec -it quickstart-cp4i-queue-ibm-mq-0(this is your pod’s name) runmqsc QU
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQAC10.png?raw=true)
 
 
-7. To generate BAR file for the assets. Select BAR --> New --> BAR File 
-   Add a name (**MQ_CLIENT_APP**) for the BAR file and click    Finish.
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP8.png?raw=true)
-
-8. Select resources to include in the BAR file (**HttpResponseApp** or **HttpRequestApp** or **MQ_CLIENT_APP**), then click on “Build and Save” to generate BAR file. 
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP9.png?raw=true)
-
-
-9. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
-
-
-
- 10. Navigate to IBM Cloud Pak for Integrations home page. Select Run --> Integrations --> It will redirect you to IBM APP Connect
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IBMAppConnect.png?raw=true)
- 
- 11. Create new Integration Server to deploy BAR file for MQ --> Select QuickStart tool kit integration --> Hit Next
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/DeployBAR.png?raw=true)
- 
- 12. Provide the BAR file to be deployed to the server and hit next.
- 
- **Bar file can be directly dragged and dropped onto CP4I browser console**
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
- 
- 13. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the snapshot below.
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer2.png?raw=true)
- 
- 14. Hit "Create" and wait until the status of the server has changed to "Ready"
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerStatus.png?raw=true)
- 
- 15. The status changes to "Ready"
-
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerReadyStatus.png?raw=true)
 
     
 
