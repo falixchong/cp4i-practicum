@@ -510,7 +510,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
  
  7. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the screenshot below.
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer3.jpg?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
  
  8. Hit "Create" and wait until the status of the server has changed to "Ready"
 
