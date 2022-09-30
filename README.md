@@ -81,7 +81,7 @@ This is the high level OpenShift Container Platform overview.
 
 For developers, OpenShift has two different ways of enabling them to work with their platform. They can take advantage of either the CLI or a web console. 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 &nbsp;
 &nbsp;
@@ -100,7 +100,7 @@ The refactor code can later be deployed in a microservices architecture on Redha
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/scenario3-architecture.png?raw=true)
 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 
 &nbsp;
@@ -158,7 +158,7 @@ TADataCollector ace run /<path_to_assets_on_local_machine>/IIBV10_Broker_backup.
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/AppConnect9.png?raw=true)
 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 &nbsp;
 &nbsp;
@@ -272,7 +272,7 @@ Navigation --> Open Shift Container Platform --> Workloads --> Secrets --> On th
 
 This section completes the configuration of Entitlement Key.
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 ### Installing Cloud Pak for Integration Operators
 
@@ -299,7 +299,7 @@ This section completes the configuration of Entitlement Key.
 This completes the installation of IBM Cloud Pak for Integration All Operators
 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 &nbsp;
 ## Creating Platform Navigator
@@ -317,7 +317,7 @@ This completes the installation of IBM Cloud Pak for Integration All Operators
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/PlatformNavigator3.png?raw=true)
 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 ## Configuring in the Form view
 The Form view opens a form that lets you view or modify the resource configuration.
@@ -353,7 +353,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/PlatformNavigator7.png?raw=true)
 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 
 &nbsp;
@@ -384,7 +384,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboard-Final.png?raw=true)
 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 &nbsp;
 ## Creating MQ Queue Manager
@@ -439,7 +439,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
  Your MQ environment is **ready!!!**
  
- [Back to Top](#topic-1-introduction-and-scenario-details)
+ [Back to Top](#table-of-contents)
  
 &nbsp;
 &nbsp;
@@ -472,7 +472,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)   
+[Back to Top](#table-of-contents)   
 
 &nbsp; 
 ## Refactor ACE REST to REST Message flow
@@ -602,7 +602,7 @@ Please replace
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-5.png?raw=true)
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 &nbsp; 
 ## Refactor ACE MQ Message flow using MQ Client Connection. Introduce new RestToMQApp message flow to expose putting MQ messages
@@ -637,7 +637,7 @@ Please replace
 
 
 
-[Back to Top](#topic-1-introduction-and-scenario-details)
+[Back to Top](#table-of-contents)
 
 
 6. To generate BAR file for the assets. Select BAR --> New --> BAR File 
@@ -747,7 +747,7 @@ oc exec -it quickstart-cp4i-queue-ibm-mq-0(this is your pod’s name) runmqsc QU
 
     
 
-[Back to Top](#topic-1-introduction-and-scenario-details)     
+[Back to Top](#table-of-contents)     
     
     
 # Topic 7: Conclusion  
