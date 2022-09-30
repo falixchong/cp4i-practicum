@@ -557,7 +557,7 @@ To generate BAR file for the assets. Select BAR --> New --> BAR File
 5. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
 
 
- 6. Navigate to IBM Cloud Pak for Integrations home page. Select Run --> Integrations --> It will redirect you to IBM APP Connect
+ 6. Navigate to IBM Cloud Pak for Integrations integration dashboard you create earlier
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IBMAppConnect.png?raw=true)
  
@@ -569,7 +569,7 @@ To generate BAR file for the assets. Select BAR --> New --> BAR File
  
  **Bar file can be directly dragged and dropped onto CP4I browser console**
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer6.jpg?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP11.jpg?raw=true)
  
  9. Skip **Configuration** screen by clicking "Next" proceeding to **Sever** setting. Input the settings as shown in the screenshot below.
 
