@@ -447,7 +447,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 &nbsp;
 &nbsp;
 &nbsp; 
-# Topic 5 : Refactor, Build and Deployment
+# Topic 6 : Refactor, Build and Deployment
 
 &nbsp; 
 ## Importing Asset into IBM ACE Toolkit and creating local integration server
