@@ -515,18 +515,19 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
  8. Hit "Create" and wait until the status of the server has changed to "Ready"
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerStatus.png?raw=true)
- 
-9. Open ACE Toolkit and navigate to **HttpRequestApp** —> Expand to open folder Flows —> double-click RequestService.msgflow
+
+
+## HTTPRequestApp
+1. Open ACE Toolkit and navigate to **HttpRequestApp** —> Expand to open folder Flows —> double-click RequestService.msgflow
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-1.png?raw=true)
 
-10. Proceed to make the following changes to each component as below:
+2. Proceed to make the following changes to each component as below:
 
    a. Select **HTTP Request** on the messageflow. Properties associated with it will show up at the bottom. 
 	    Change the path **web service url**  to URL obtain in following steps
 
-[Pending Update of IMAGE (HTTP request URL)]    
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChangeProperties1.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChangeProperties1.jpg?raw=true)
   
   
    b. Select HTTPRequest and replace the URL as per the cluster URL.
@@ -541,47 +542,46 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
   
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-3.png?raw=true)
   
-11. Create a BAR file for this flow and deploy it to a new Integration Server in OCP.
+3. Create a BAR file for this flow and deploy it to a new Integration Server in OCP.
 
 To generate BAR file for the assets. Select BAR --> New --> BAR File 
    Add a name (**HttpRequestApp**) for the BAR file and click    Finish.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP8.png?raw=true)
 
-12. Select resources to include in the BAR file (**HttpRequestApp**), then click on “Build and Save” to generate BAR file. 
+4. Select resources to include in the BAR file (**HttpRequestApp**), then click on “Build and Save” to generate BAR file. 
 
 [Pending Update of IMAGE (Change to BAR File app HTTPRequestApp)]    
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP9.png?raw=true)
 
 
-13. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
+5. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
 
 
- 14. Navigate to IBM Cloud Pak for Integrations home page. Select Run --> Integrations --> It will redirect you to IBM APP Connect
+ 6. Navigate to IBM Cloud Pak for Integrations home page. Select Run --> Integrations --> It will redirect you to IBM APP Connect
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IBMAppConnect.png?raw=true)
  
- 15. Create new Integration Server to deploy BAR file for MQ --> Select QuickStart tool kit integration --> Hit Next
+ 7. Create new Integration Server to deploy BAR file for MQ --> Select QuickStart tool kit integration --> Hit Next
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/DeployBAR.png?raw=true)
  
- 16. Provide the BAR file to be deployed to the server and hit next.
+ 8. Provide the BAR file to be deployed to the server and hit next.
  
  **Bar file can be directly dragged and dropped onto CP4I browser console**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
  
- 17. Pass the configuration screen by clicking "Next" proceeding to "Common Settings". Validate the settings as shown in the snapshot below.
+ 9. Skip **Configuration** screen by clicking "Next" proceeding to **Sever** setting. Input the settings as shown in the screenshot below.
 
-[Pending Update of IMAGE (Change to is-01-toolkit-request-app1)]  
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer2.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer5.jpg?raw=true)
  
- 18. Hit "Create" and wait until the status of the server has changed to "Ready"
+ 10. Hit "Create" and wait until the status of the server has changed to "Ready"
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerReadyStatus.png?raw=true)
 
 
-19. Test the deployed BARs
+11. Test the deployed BARs
 
    a. Open Terminal on your local machine
 
@@ -599,7 +599,7 @@ Please replace
 **http://is-01-toolkit-request-app-3-http-cp4i.cp4intpg-wdc04-ttwakv-8946bbc006b7c6eb0829d088919818bb-0000.us-east.containers.appdomain.cloud** part with the URL of your environment
 
 
-20. Receiving 200 OK on the terminal validates successful deployment
+12. Receiving 200 OK on the terminal validates successful deployment
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-5.png?raw=true)
 
