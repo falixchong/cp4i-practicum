@@ -7,8 +7,8 @@ Table of contents
 
 <!--ts-->
    * [Topic 1: Introduction and Scenario Details](#topic-1-introduction-and-scenario-details)
-   * [Topic 2: Introduction to Clusters and Openshift](#topic-3-introduction-to-clusters-and-openshift)
-   * [Topic 3: Solution Architecture](#topic-2-solution-architecture)
+   * [Topic 2: Introduction to Clusters and Openshift](#topic-2-introduction-to-clusters-and-openshift)
+   * [Topic 3: Solution Architecture](#topic-3-solution-architecture)
    * [Topic 4: Running Transformation Advisor](#topic-4-running-transformation-advisor)
       * [Installing IBM App Connect Enterprise (ACE) & Running Transformation Advisor (TADataCollector)](#installing-ibm-app-connect-enterprise-ace--running-transformation-advisor-tadatacollector)
    * [Topic 5: Environment Setup and Configuration](#topic-5-environment-setup-and-configuration)
@@ -22,7 +22,7 @@ Table of contents
       * [Importing Asset into IBM ACE Toolkit and creating local integration server](#importing-asset-into-ibm-ace-toolkit-and-creating-local-integration-server)
       * [Refactor ACE REST to REST Message flow](#refactor-ace-rest-to-rest-message-flow)
       * [Refactor ACE MQ Message flow using MQ Client Connection. Introduce new RestToMQApp message flow to expose putting MQ messages](#refactor-ace-mq-message-flow-using-mq-client-connection-introduce-new-resttomqapp-message-flow-to-expose-putting-mq-messages)
-   * [Topic 7: Conclusion](#conclusion)
+   * [Topic 7: Conclusion](#topic-7-conclusion)
 <!--te-->
 
 &nbsp;
@@ -49,7 +49,7 @@ Demonstrate your practical solution to whole class.
 
 Day 5: Demonstrate your practical solution to whole class.
 
-[Back to Top](Table of contents)
+[Back to Top](#table-of-contents)
 
 &nbsp;
 &nbsp;
@@ -91,7 +91,7 @@ For developers, OpenShift has two different ways of enabling them to work with t
 &nbsp;
 
 
-# Topic 2: Solution Architecture
+# Topic 3: Solution Architecture
 Below describe the high-level solution architecture for a simple scenario's solution.
 By using IBM IIB/ACE transformation advisor's TADataCollector, we can analyse the current monolith IIB/ACE application. A report will be generated to recommend what are needed to refactor, in order to achieve a microservice architecture build.
 
@@ -112,7 +112,7 @@ The refactor code can later be deployed in a microservices architecture on Redha
 
 
 
-# Topic 3: Running Transformation Advisor
+# Topic 4: Running Transformation Advisor
 
 ## Installing IBM App Connect Enterprise (ACE) & Running Transformation Advisor (TADataCollector)
 
