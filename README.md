@@ -588,7 +588,7 @@ To generate BAR file for the assets. Select **BAR --> New --> BAR File**.
    
    a. open **OCP Console --> Administrator View --> Networking -->  Routes --> Search for the ```request```**
 
-   ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTPRequestTest.png?raw=true)
+   ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTPRequestTest.jpg?raw=true)
 
    b. Copy URL
 
