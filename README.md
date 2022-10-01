@@ -21,7 +21,7 @@ Table of contents
    * [Topic 6: Refactor, Build and Deployment](#topic-6--refactor-build-and-deployment)
       * [Importing Asset into IBM ACE Toolkit and creating local integration server](#importing-asset-into-ibm-ace-toolkit-and-creating-local-integration-server)
       * [Refactor ACE REST to REST Message flow](#refactor-ace-rest-to-rest-message-flow)
-      * [Refactor ACE MQ Message flow using MQ Client Connection. Introduce new RestToMQApp message flow to expose putting MQ messages](#refactor-ace-mq-message-flow-using-mq-client-connection-introduce-new-resttomqapp-message-flow-to-expose-putting-mq-messages)
+      * [Refactor ACE MQ Message flow using MQ Client Connection.](#refactor-ace-mq-message-flow-using-mq-client-connection)
    * [Topic 7: Conclusion](#topic-7-conclusion)
 <!--te-->
 
@@ -607,7 +607,7 @@ curl -v [Copied URL]/requestService
 [Back to Top](#table-of-contents)
 
 &nbsp; 
-## Refactor ACE MQ Message flow using MQ Client Connection. Introduce new RestToMQApp message flow to expose putting MQ messages
+## Refactor ACE MQ Message flow using MQ Client Connection.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/scenario3-application-architecture-ace-mq.jpg?raw=true)
 
