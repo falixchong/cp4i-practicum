@@ -403,31 +403,31 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboard2.jpg?raw=true)
 
-3. Select “Quick start” option from this screen, and click on Next.
+3. Select **Quick start** option from this screen, and click on Next.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateQMngr.png?raw=true)
  
 4. Modify the details for your queue manager as below:
    
-   a. License acceptance by toggling the button 
+   a. **License acceptance** by toggling the button 
 
 
    ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/Licence.png?raw=true)
  
  
  
-   b. Select “Type of availability” from dropdown as SingleInstance  
+   b. Select **Type of availability** from dropdown as **SingleInstance**  
  
    
   ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/AvailabilityType.png?raw=true)
  
  
-   c. Select “Type of Volume” from the drop down as persistent-claim
+   c. Select **Type of Volume** from the drop down as **persistent-claim**
  
   ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/VolumeType.png?raw=true)
  
  
- 5. Lastly click on “Create” from the top right corner and queue will be created. 
+ 5. Lastly click on **Create** from the top right corner and queue will be created. 
    You will be redirected to a new page, showing the details of your newly created Queue manager.
    
  ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/QMngrReady.png?raw=true)
@@ -457,7 +457,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 &nbsp; 
 ## Importing Asset into IBM ACE Toolkit and creating local integration server
-1. Import a project in ACE using navigation --> File -> Import -> IBM Project Interchange
+1. Import a project in ACE by navigating **File -> Import -> IBM Project Interchange**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP1.png?raw=true)
 
@@ -487,12 +487,12 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 ## HTTPResponseApp
 
-1. Generate BAR file for the assets. Select BAR --> New --> BAR File 
+1. Generate BAR file for the assets. Select **BAR --> New --> BAR File** 
    Add a name (**HttpResponseApp**) for the BAR file and click    Finish.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP8.png?raw=true)
 
-2. Select resources to include in the BAR file (**HttpResponseApp**), then click on “Build and Save” to generate BAR file. 
+2. Select resources to include in the BAR file (**HttpResponseApp**), then click on **Build and Save** to generate BAR file. 
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP9.png?raw=true)
 
@@ -500,21 +500,21 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 3. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
 
 
- 4. Navigate to IBM Cloud Pak for Integrations integration dashboard you create earlier
+ 4. Navigate to IBM Cloud Pak for Integrations integration dashboard you create earlier and select **Create a server**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IBMAppConnect.png?raw=true)
  
- 5. Create new Integration Server to deploy BAR file for MQ --> Select QuickStart tool kit integration --> Hit Next
+ 5. Select **QuickStart tool kit integration** --> Next
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/DeployBAR.png?raw=true)
  
  6. Provide the BAR file to be deployed to the server and hit next.
  
-   **Bar file can be directly dragged and dropped onto CP4I browser console**
+   >Bar file can be directly dragged and dropped onto CP4I BAR file upload
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer3.jpg?raw=true)
  
- 7. Skip **Configuration** setting by clicking "Next" proceeding to **Server**. Input the settings as shown in the screenshot below.
+ 7. Skip **Configuration** setting by clicking **Next** proceed to **Server**. Input the settings as shown in the screenshot below.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer4.jpg?raw=true)
  
@@ -524,40 +524,40 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 
 ## HTTPRequestApp
-1. Open ACE Toolkit and navigate to **HttpRequestApp** —> Expand to open folder Flows —> double-click RequestService.msgflow
+1. Open ACE Toolkit and navigate to **HttpRequestApp —> Expand to open folder Flows —> RequestService.msgflow**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-1.png?raw=true)
 
 2. Proceed to make the following changes to each component as below:
 
    a. Select **HTTP Request** on the messageflow. Properties associated with it will show up at the bottom. 
-	    Change the path **web service url**  to URL obtain in following steps
+	    Change the path **web service url**  to **URL obtain in following steps b**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChangeProperties1.jpg?raw=true)
   
   
    b. Select HTTPRequest and replace the URL as per the cluster URL.
        
-   **OCP Console** --> **Administrator View** --> **Networking** --> Select Routes --> Search for the Response Integration server created. 
+   **OCP Console --> Administrator View --> Networking -->  Routes --> Search for the ```response```**
 
-   copy URL in the “Location” column.
+   copy **http** URL in the **Location** column.
    
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-2.png?raw=true)
 
-   Save the flow in ACE after replacing the http://localhost:7800/responseService
+   Replacing HTTP request **Web service URL** http://localhost:7800/responseService  with above URL in the earlier messageflow and **save**
   
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-3.png?raw=true)
   
 3. Create a BAR file for this flow and deploy it to a new Integration Server in OCP.
 
-To generate BAR file for the assets. Select BAR --> New --> BAR File 
+To generate BAR file for the assets. Select **BAR --> New --> BAR File**. 
    Add a name (**HttpRequestApp**) for the BAR file and click    Finish.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP8.png?raw=true)
 
-4. Select resources to include in the BAR file (**HttpRequestApp**), then click on “Build and Save” to generate BAR file. 
+4. Select resources to include in the BAR file (**HttpRequestApp**), then click on **Build and Save** to generate BAR file. 
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP11.jpg?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer6.jpg?raw=true)
 
 
 5. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
@@ -567,13 +567,13 @@ To generate BAR file for the assets. Select BAR --> New --> BAR File
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IBMAppConnect.png?raw=true)
  
- 7. Create new Integration Server to deploy BAR file for MQ --> Select QuickStart tool kit integration --> Hit Next
+ 7. Create new Integration Server to deploy BAR file for MQ by **Select QuickStart tool kit integration --> Next**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/DeployBAR.png?raw=true)
  
  8. Provide the BAR file to be deployed to the server and hit next.
  
- **Bar file can be directly dragged and dropped onto CP4I browser console**
+ >Bar file can be directly dragged and dropped onto CP4I BAR file upload
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP11.jpg?raw=true)
  
