@@ -530,15 +530,13 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 2. Proceed to make the following changes to each component as below:
 
-   a. Select **HTTP Request** on the messageflow. Properties associated with it will show up at the bottom. 
-	    Change the path **web service url**  to **URL obtain in following steps b**
+   a. Select **HTTP Request** on the messageflow. 
+	Change the path **Web service URL**  to **URL obtain in following steps b**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChangeProperties1.jpg?raw=true)
   
   
-   b. Select HTTPRequest and replace the URL as per the cluster URL.
-       
-   **OCP Console --> Administrator View --> Networking -->  Routes --> Search for the ```response```**
+   b. Open **OCP Console --> Administrator View --> Networking -->  Routes --> Search for the ```response```**
 
    copy **http** URL in the **Location** column.
    
