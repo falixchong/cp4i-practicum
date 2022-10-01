@@ -1,4 +1,4 @@
-IBM CP4I Practicum Lab Book for Scenario 3:
+IBM Cloud Pak for Integration (CP4I) Practicum Lab Book for Scenario 3:
 =================
 This Practicum Lab Book explains and focuses on the solution preparation and implementation for Practicum Scenario 3 using Cloud Pak for Integration (CP4I). The book will cover the solution architecture and the details of how to best implement the solution for the given scenario. This will help accelerate adoption of Cloud Pak for Integration.
 
@@ -131,7 +131,7 @@ The version used in this practicum is `12.0.3`
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/AppConnect3.png?raw=true)
 
-3. Open the Integration Console (IBM App connect Enterprise Toolkit -> Open Integration console)
+3. Open the ```Integration Console``` by **IBM App connect Enterprise Toolkit** -> **Open Integration console**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/AppConnect4.png?raw=true)
 
@@ -359,23 +359,23 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 &nbsp;
 ## Creating Integration Dashboard
 
-1. Go to IBM Cloud Pak home and click on the hamburger on top left --> click Integration Instances 
+1. Go to Platform Navigator and click on the **Hamburger on top left** --> **Administration** --> **Integration Instances**
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/PlatformNavigator.png?raw=true)
  
-2. Click “Create Instance” on top left of the page
+2. Click **Create Instance** on top left of the page
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateInstance-AppConnect.png?raw=true)
  
-3. Select Integration Dashboard and click next
+3. Select **Integration Dashboard** and click next
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboard.png?raw=true)
  
-4. Select either Production or Quick Start --> click next
+4. Select either **Quick Start** --> click next
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboardType.png?raw=true)
  
-5. Key-in the details of the environment and proceed to create the dashboard.
+5. Key-in the details of the environment as below and proceed to create the dashboard.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboard-Env.png?raw=true)
  
@@ -391,19 +391,25 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 1. Go to IBM Cloud Pak Home, click on “Messaging” as highlighted in the screen below
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/Messging.png?raw=true)
- 
-2. This will redirect to a Messaging screen as below. Click on Create an instance to create a queue manager.
+1. Go to Platform Navigator and click on the **Hamburger on top left** --> **Administration** --> **Integration Instances**
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MessgnScreen.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/PlatformNavigator.png?raw=true)
  
+2. Click **Create Instance** on top left of the page
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateInstance-AppConnect.png?raw=true)
+ 
+3. Select **Messaging** and click next
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboard2.jpg?raw=true)
+
 3. Select “Quick start” option from this screen, and click on Next.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateQMngr.png?raw=true)
  
 4. Modify the details for your queue manager as below:
    
-   a. License acceptance – Toggle the button from OFF to ON state
+   a. License acceptance by toggling the button 
 
 
    ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/Licence.png?raw=true)
