@@ -544,7 +544,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
    
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-2.png?raw=true)
 
-   Replacing HTTP request **Web service URL** http://localhost:7800/responseService  with above URL in the earlier messageflow and **save**
+   Replacing HTTP request **Web service URL** http://localhost:7800/responseService  with ```Copied URL/responseService``` and **save**
   
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-3.png?raw=true)
   
@@ -587,22 +587,20 @@ To generate BAR file for the assets. Select **BAR --> New --> BAR File**.
 
 
 11. Test the deployed BARs
+   
+   a. open **OCP Console --> Administrator View --> Networking -->  Routes --> Search for the ```request```**
 
-   a. Open Terminal on your local machine
+   ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTPRequestTest.png?raw=true)
 
-   b. Use curl command to test your deployment 
+   b. Copy URL
 
+   c. Open Terminal on your local machine
 
-```   
-curl -v http://is-01-toolkit-request-app-3-http-cp4i.cp4intpg-wdc04-ttwakv-8946bbc006b7c6eb0829d088919818bb-0000.us-east.containers.appdomain.cloud/responseService
+   d. Use curl command to test your deployment 
+
 ```
+curl -v [Copied URL]/requestService
 ```
-curl -v http://is-01-toolkit-request-app-3-http-cp4i.cp4intpg-wdc04-ttwakv-8946bbc006b7c6eb0829d088919818bb-0000.us-east.containers.appdomain.cloud/requestService
-```
-
-Please replace 
-**http://is-01-toolkit-request-app-3-http-cp4i.cp4intpg-wdc04-ttwakv-8946bbc006b7c6eb0829d088919818bb-0000.us-east.containers.appdomain.cloud** part with the URL of your environment
-
 
 12. Receiving 200 OK on the terminal validates successful deployment
 
