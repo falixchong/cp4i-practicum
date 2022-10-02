@@ -703,7 +703,7 @@ Then **save**.
 
 ## RestToMQApp
 
-1. Obtain MQ Endpoint, login to your cluster and navigate to **Networking --> Services --> Search* ```MQ```. Copy Hostname and Port as highlighted
+1. Obtain MQ Endpoint, login to your cluster and navigate to **Networking --> Services --> Search** ```MQ```. Copy Hostname and Port as highlighted
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HostName.png?raw=true)
  
@@ -755,7 +755,7 @@ Then **save**.
  
  >Bar file can be directly drag and drop onto CP4I upload BAR section
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqbardeploy.jpg?raw=true)
  
 11. Skip the **Configuration** by clicking **Next** to proceeding to **Server** settings. Input the settings as shown in the screenshot below.
 
