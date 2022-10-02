@@ -489,7 +489,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 &nbsp; 
 ## Refactor ACE REST to REST Message flow
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/scenario3-application-architecture-ace-rest-rest.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/scenario3-application-architecture-ace-rest-rest.jpg?raw=true)
 
 ## HTTPResponseApp
 
@@ -548,7 +548,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
    
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-2.png?raw=true)
 
-   Replacing HTTP request **Web service URL** http://localhost:7800/responseService  with ```[Copied URL]/responseService``` and **save**
+   Replacing HTTP request **Web service URL** http://localhost:7800/responseService  ```http://[Copied_URL]/responseService``` and **save**
   
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/refactor-http-3.png?raw=true)
   
