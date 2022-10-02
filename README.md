@@ -437,10 +437,22 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQConsole.png?raw=true)
  
- 
-7. Click on  manage --> quickstart to open queue manager
+7. Create ```IN``` and ```OUT``` MQ queues
+   
+   a. Click **Create a queue**
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/createq1.jpg?raw=true)
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ChannlQuickStrt.png?raw=true)
+   b. Click **Local**
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/createq2.jpg?raw=true)
+
+   c. Input **Queue Name** ```IN``` as below
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/createq3.jpg?raw=true)
+
+   d. Repeat step a to c with by creating ```OUT``` MQ queue
+ 
+7. Click on  **Manage QUICKSTART** to open queue manager
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/createq4.jpg?raw=true)
  
 
  Your MQ environment is **ready!!!**
