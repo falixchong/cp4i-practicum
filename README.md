@@ -767,7 +767,7 @@ Then **save**.
  
 13. The status changes to "Ready"
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ready.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ready.jpg?raw=true)
 
 
 ## Running mq_ace_lab.mqsc
