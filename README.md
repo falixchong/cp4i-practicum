@@ -489,7 +489,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
 &nbsp; 
 ## Refactor ACE REST to REST Message flow
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/scenario3-application-architecture-ace-rest-rest.jpg?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/scenario3-application-architecture-ace-rest-rest2.jpg?raw=true)
 
 ## HTTPResponseApp
 
