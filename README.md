@@ -817,7 +817,7 @@ https://docs.openshift.com/container-platform/4.10/cli_reference/openshift_cli/g
 
 
 ```
-oc project cp4i(your project name)
+oc project cp4i
 ```
 
 
@@ -827,7 +827,6 @@ oc project cp4i(your project name)
 
 ```
 oc get pods|grep mq 
-
 ```
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQAC8.png?raw=true)
@@ -835,7 +834,7 @@ oc get pods|grep mq
 6. Change Directory to the location of your mqsc file. Use the following command to upload mqsc file to the MQ pod
 
 ```
-oc exec -it quickstart-cp4i-queue-ibm-mq-0(this is your pod’s name) runmqsc QUICKSTART < mq_ace_lab.mqsc
+oc exec -it quickstart-cp4i-ibm-mq-0 runmqsc QUICKSTART < mq_ace_lab.mqsc
 ```
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQAC9.png?raw=true)
