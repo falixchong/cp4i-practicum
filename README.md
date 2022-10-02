@@ -795,7 +795,7 @@ https://docs.openshift.com/container-platform/4.10/cli_reference/openshift_cli/g
 
 
 
-1. Login to Openshift CLuster Environment. Click on the top right corner  **You Login ID will appear here --> Copy login command**
+1. Login to Openshift CLuster Environment. Click on the top right corner  **Your Login ID will appear here --> Copy login command**
 
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/installoccli1.jpg?raw=true)
