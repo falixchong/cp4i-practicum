@@ -367,7 +367,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
  
 4. Select either **Quick Start** --> click next
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboardType.jpg?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboardType.png?raw=true)
  
 5. Key-in the details of the environment as below and proceed to create the dashboard.
 
