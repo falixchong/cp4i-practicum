@@ -795,10 +795,10 @@ https://docs.openshift.com/container-platform/4.10/cli_reference/openshift_cli/g
 
 
 
-1. Login to Openshift CLuster Environment. Click on the top right corner --> You Login ID will appear here --> Click copy login command
+1. Login to Openshift CLuster Environment. Click on the top right corner  **You Login ID will appear here --> Copy login command**
 
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQAC2.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/installoccli1.jpg?raw=true)
 
 2. Browser will display "Display Token" --> Click to get your API Token
    
