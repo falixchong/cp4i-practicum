@@ -614,7 +614,7 @@ curl -v [Copied URL]/requestService
 
 ## MQ_Client_App
 
-1. Obtain MQ Endpoint, login to your cluster and navigate to **Networking --> Services --> Search* ```MQ```. Copy Hostname and Port as highlighted
+1. Obtain MQ Endpoint, login to your cluster and navigate to **Networking --> Services --> Search** ```MQ```. Copy Hostname and Port as highlighted
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HostName.png?raw=true)
  
@@ -641,7 +641,6 @@ curl -v [Copied URL]/requestService
 
 Then **save**.
 
-[Pending update of image (MQ Connections)]
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ACEMQ3.png?raw=true)
 
 
@@ -657,12 +656,11 @@ Then **save**.
 
 Then **save**.
 
-[Pending update of image (MQ Connections)]
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ACEMQoutput.png?raw=true)
 
 
 
-6. To generate BAR file for the assets. Select BAR --> New --> BAR File 
+6. To generate BAR file for the assets. Select **BAR --> New --> BAR File**. 
    Add a name (**MQ_CLIENT_APP**) for the BAR file and click    Finish.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP8.png?raw=true)
@@ -764,7 +762,7 @@ Then **save**.
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer2.png?raw=true)
  
-12. Hit "Create" and wait until the status of the server has changed to "Ready"
+12. Click **Create** and wait until the status of the server has changed to "Ready"
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntServerStatus.png?raw=true)
  
@@ -775,7 +773,7 @@ Then **save**.
 
 ## Running mq_ace_lab.mqsc
 
-There are multiple layers of security access for MQ such as authorization and authentication configured on the Channel access. To simplify the exercise, we will proceed to disable to Channel security authentication and authorization with an MQ Script. Below steps will assist to disable - 
+There are multiple layers of security for MQ such as authorization and authentication configured on the Channel access. To simplify this exercise, we will disable all security with an MQ Script. Below steps will assist to disable - 
 
 **Pre-requisite**
 
