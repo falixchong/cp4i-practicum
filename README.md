@@ -371,7 +371,7 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
  
 5. Key-in the details of the environment as below and proceed to create the dashboard.
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboard-Env.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/IntegrationDashboard-Env.jpg?raw=true)
  
 6. Upon successful creation of Integration Dashboard below message will appear on the browser. 
 
