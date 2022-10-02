@@ -614,7 +614,7 @@ curl -v [Copied URL]/requestService
 
 ## MQ_Client_App
 
-1. Obtain MQ Endpoint, login to your cluster and navigate to **Networking --> Services --> Search** ```MQ```. Copy Hostname and Port as highlighted
+1. Obtain MQ Endpoint, login to your cluster and navigate to **Networking --> Services --> Search** ```MQ```. Copy **Hostname** and **Port** as highlighted
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HostName.png?raw=true)
  
@@ -641,7 +641,7 @@ curl -v [Copied URL]/requestService
 
 Then **save**.
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ACEMQ3.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQClientInputNode.jpg?raw=true)
 
 
 5. Repeat the same configuration for **MQ Output** Node
@@ -656,7 +656,7 @@ Then **save**.
 
 Then **save**.
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/ACEMQoutput.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/MQClientOutputNode.jpg?raw=true)
 
 
 
@@ -667,8 +667,8 @@ Then **save**.
 
 7. Select resources to include in the BAR file (**MQ_CLIENT_APP**), then click on **Build and Save** to generate BAR file. 
 
-[Pending Update of Image(chanage to MQ_CLIENT_APP)]
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP9.png?raw=true)
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/mqClientBAR.jpg?raw=true)
 
 
 8. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
@@ -727,7 +727,6 @@ Then **save**.
 
 Then **save**.
 
-[Pending update of image (MQ Connections)]
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqapp2.jpg?raw=true)
 
 5. To generate BAR file for the assets. Select BAR --> New --> BAR File 
@@ -737,8 +736,8 @@ Then **save**.
 
 6. Select resources to include in the BAR file (**RESTToMQApp**), then click on **Build and Save** to generate BAR file. 
 
-[Pending Update of Image(chanage to RESTToMQApp)]
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/HTTP9.png?raw=true)
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqbar.jpg?raw=true)
 
 
 7. Once Build, the BAR file will appear under BARs on the left side of Application Development panel. 
@@ -760,7 +759,7 @@ Then **save**.
  
 11. Skip the **Configuration** by clicking **Next** to proceeding to **Server** settings. Input the settings as shown in the screenshot below.
 
-![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/CreateIntServer2.png?raw=true)
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqbardeploy2.jpg?raw=true)
  
 12. Click **Create** and wait until the status of the server has changed to "Ready"
 
