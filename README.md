@@ -844,7 +844,32 @@ oc exec -it quickstart-cp4i-ibm-mq-0 runmqsc QUICKSTART < mq_ace_lab.mqsc
 
 ## Testing RESTToMQApp
 
-    
+ 1. Navigate to your Integration Dashboard and click on **RESTToMQApp**   
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqtest1.jpg?raw=true)
+
+2. Click on **POST /account**
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqtest2.jpg?raw=true)
+
+3. Click **Try it**
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqtest3.jpg?raw=true)
+
+3. Generate some test data by clicking **Generate**
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqtest4.jpg?raw=true)
+
+4. Click **Send**
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqtest5.jpg?raw=true)
+
+5. REST response result will display as below
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqtest6.jpg?raw=true)
+
+6. Validate an output message is created in MQ ```OUT``` queue 
+
+![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/resttomqtest7.jpg?raw=true)
 
 [Back to Top](#table-of-contents)     
     
