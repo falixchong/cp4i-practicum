@@ -445,12 +445,12 @@ Supported storage providers include ibmc-file-gold-gid, OpenShift Data Foundatio
    b. Click **Local**
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/createq2.jpg?raw=true)
 
-   c. Input **Queue Name** ```IN``` as below
+   c. Input **Queue Name** ```IN``` as below and click **Create**
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/createq3.jpg?raw=true)
 
-   d. Repeat step a to c with by creating ```OUT``` MQ queue
+   d. Repeat step **a** to **c** with by creating ```OUT``` MQ queue
  
-7. Click on  **Manage QUICKSTART** to open queue manager
+7. Click on  **Manage QUICKSTART** to open queue manager to view the queue you have created
 
 ![alt text](https://github.com/falixchong/cp4i-practicum/blob/master/images/createq4.jpg?raw=true)
  
