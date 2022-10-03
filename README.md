@@ -784,7 +784,7 @@ There are multiple layers of security for MQ such as authorization and authentic
 
 Install Openshift CLI client for your system by following the steps outlined in the below documentation
 
-https://docs.openshift.com/container-platform/4.10/cli_reference/openshift_cli/getting-started-cli.html
+https://console.redhat.com/openshift/downloads
  
 
 
